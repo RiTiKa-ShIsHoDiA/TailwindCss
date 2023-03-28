@@ -9,10 +9,29 @@
   </head>
   <body>
     <!-- Flex and alignment -->
+    <div class="flex w-full h-80 bg-gray-300 flex-wrap items-center justify-center">
+      <div class = "border bg-red-300 p-4 w-64">1</div>
+      <div class = "border bg-red-300 p-4 w-64">2</div>
+      <div class = "border bg-red-300 p-4 w-64">3</div>
+      <div class = "border bg-red-300 p-4 w-64">4</div>
+    </div>
 
     <!-- Flex Column, Gap and Order -->
+    <div class="flex w-full flex-col h-80 bg-blue-300 gap-4 items-center justify-center">
+      <div class = "order-4 border bg-red-300 p-4 w-64">1</div>
+      <div class = "order-3 border bg-red-300 p-4 w-64">2</div>
+      <div class = "order-2 border bg-red-300 p-4 w-64">3</div>
+      <div class = "order-1 border bg-red-300 p-4 w-64">4</div>
+    </div>
 
     <!-- Grow and shrink -->
+    <div class="flex  h-80 bg-blue-300 gap-4 ">
+      <div class = " flex-none order-4 border bg-red-300 p-4 w-64">1</div>
+      <div class = "flex-intial order-3 border bg-red-300 p-4 w-64">2</div>
+      <div class = "flex-auto order-2 border bg-red-300 p-4 w-64">3</div>
+      <div class = "flex-1 order-1 border bg-red-300 p-4 w-64">4</div>
+      <div class = "flex-1 order-1 border bg-red-300 p-4 w-64">4</div>
+    </div>
   </body>
 </html>
 
